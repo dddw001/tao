@@ -1,0 +1,91 @@
+html{overflow: hidden;}
+.tHeader{width: 100%;background: #f5f5f5;}
+.header-wrap{width: 1190px;height: 35px;margin: 0 auto;}
+
+.tHeader{line-height: 35px;}
+.tHeader a{color: #3c3c3c;}
+.hLeft>li{float: left;}
+.hRight>li{float: left;}
+.hLeft{float: left;}
+.hRight{float: right;}
+
+.hoverColor:hover a{color: #f22e00;}
+.fixPadding{padding: 0 5px;}
+
+/*下拉菜单共同属性*/
+.drop-menu{width: 79px;}
+.drop-menu .drop-list{display: none;}
+.drop-menu:hover .drop-header{background: #fff;border: 1px solid #ccc;border-bottom: none;position: relative;top: 1px;border-top: none;}
+.drop-menu:hover .drop-list{background: #fff;display: block;border: 1px solid #ccc;}
+.drop-header{border: 1px solid transparent;}
+.drop-list{border: 1px solid transparent;}
+
+/*每个的不同*/
+.drop1 .drop-list{border-right: none;border-bottom: none;width: 242px;}
+.drop1 .drop-list ul{max-height: 270px;overflow-y: scroll;overflow-x: hidden;}
+
+
+.drop2 .drop-list{width: 85px;}  
+.drop-menu:hover .drop-list2{width: 80px;}
+
+.drop3{width: 97px;}
+.drop3 .drop-list{width: 300px;}
+.drop3 .drop-list p{padding-left: 20px;margin: 10px 0;}
+.drop3 .look-cart{display: inline-block;vertical-align: middle;padding: 0 10px;height: 25px;line-height: 25px;color: #fff;background-color: #f40;}
+
+.drop4{width: 90px;}
+.drop4 .drop-list{width: 80px;}
+.drop4:hover .drop-header{border-bottom: 1px solid #ccc;}
+.drop4:hover .drop-list{border-top: none;position: relative;top: -0.5px;}
+
+.drop5 .drop-list{width: 90px;}
+
+.drop6 .drop-list{width: 72px;}
+.drop6:hover .drop-header{border-bottom: 1px solid #ccc;}
+.drop6:hover .drop-list{border-top: none;position: relative;top: -0.5px;}
+
+.drop7{width: 100px;z-index: 2;}
+.drop7:hover .drop-list{border:none;}
+.drop7 .drop-list ul li:hover{background: none;}
+
+
+.drop-menu .drop-list ul li{height: 29px;line-height: 29px;padding-left: 8px;}         
+.drop-list ul li:hover{background: #f4f4f4;cursor: pointer;}
+.drop-menu .drop-ico{margin-left: 5px;}
+
+.tLogin{color: #f22e00!important;}
+.tRegister:hover{color: #f22e00;} 
+.login a{margin-right: 7px;}
+
+.user-info{display:none;}
+
+.cart-ico{color: #ff4400;}
+.cart-num{color: #ff4400;font-weight: bold;}
+
+.product-sort{margin-top: 2px;}
+
+.drop7 .drop-list{position: relative;margin-top: -2px;}
+.drop7 .wrap{width: 1188px;overflow: hidden;min-height: 258px;border: 1px solid #eee;position: absolute;right: 0;left: auto;background: #fff;border-top: none;}
+.drop7 .tList{box-sizing: border-box;float: left;width: 25%;overflow: hidden;padding: 5px;border-right: 1px solid #eee;}
+.drop7 .list4{border-right: none;}
+
+.tList h4{margin: 5px;font-size: 16px;font-weight: 600;overflow: hidden;}
+.list1 h4{color: #fc4200;}
+.list2 h4{color: #9eb658;}
+.list3 h4{color: #dc60a8;}
+.list4 h4{color: #52a0e5;}
+
+.tList .list-content ul li{float: left;box-sizing: border-box;padding-top: 5px;height: 25px;overflow: hidden;}
+.list1 .list-content ul li{width: 24%;}
+.list2 .list-content ul li{width: 33%;}
+.list3 .list-content ul li{width: 33%;}
+.list4 .list-content ul li{width: 33%;}
+
+.tList .list-content ul li a{position: relative;float: left;height: 25px;line-height: 20px;margin: 0 2px;padding: 0 8px;border-radius: 2px;}
+.list1 .list-content ul li a:hover{background-color: #fc4200;color: white;}
+.list2 .list-content ul li a:hover{background-color: #9eb658;color: white;}
+.list3 .list-content ul li a:hover{background-color: #dc60a8;color: white;}
+.list4 .list-content ul li a:hover{background-color: #52a0e5;color: white;}
+
+.drop7 .hot-ico{background: url('../img/hot.gif');width: 10px;height: 10px;display: inline-block;position: absolute;top: -5px;}
+.drop7 .new-ico{background: url('../img/new.gif');width: 10px;height: 10px;display: inline-block;position: absolute;top: -5px;}

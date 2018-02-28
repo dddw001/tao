@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    *{margin: 0;padding: 0;}
+ul li{list-style: none;}
+.menu1{display: none;} 
+ .menu2{display: none;} 
+
+/*一级菜单*/
+.nav{width: 40px;}
+.nav .title{width: 40px;text-align: center;}
+.nav .menu1{width: 110px;}
+.nav:hover .title{border: 1px solid red;border-bottom: none;position: relative;top: 1.5px;background: white;}
+.nav:hover .menu1{display: block;border: 1px solid red;}
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="nav">
+    <div class="title">标题</div>
+    <ul class="menu1">
+      <li>一级菜单1</li>
+      <li>一级菜单2</li>
+      <li>一级菜单3</li>
+    </ul>
+  </div>
+</body>
+</html>
